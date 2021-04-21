@@ -3,13 +3,25 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@hookform/resolvers": "^2.4.0",
+    "@reduxjs/toolkit": "^1.5.1",
     "@testing-library/jest-dom": "^5.11.4",
     "@testing-library/react": "^11.1.0",
     "@testing-library/user-event": "^12.1.10",
+    "bootstrap": "^4.6.0",
+    "firebase": "^8.4.1",
+    "nanoid": "^3.1.22",
     "react": "^17.0.2",
+    "react-bootstrap": "^1.5.2",
     "react-dom": "^17.0.2",
+    "react-hook-form": "^7.2.1",
+    "react-redux": "^7.2.3",
+    "react-redux-firebase": "^3.10.0",
+    "react-router-dom": "^5.2.0",
     "react-scripts": "4.0.3",
-    "web-vitals": "^1.0.1"
+    "redux-firestore": "^0.15.0",
+    "web-vitals": "^1.0.1",
+    "yup": "^0.32.9"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -34,5 +46,25 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  }
+  },
+  "description": "This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).",
+  "main": "index.js",
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yuriybogd/firebase-redux-bootstrap-chat-app.git"
+  },
+  "keywords": [
+    "React",
+    "Redux",
+    "Toolkit",
+    "Bootstrap",
+    "Firebase"
+  ],
+  "author": "Yury Bogdanov",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yuriybogd/firebase-redux-bootstrap-chat-app/issues"
+  },
+  "homepage": "https://github.com/yuriybogd/firebase-redux-bootstrap-chat-app#readme"
 }
